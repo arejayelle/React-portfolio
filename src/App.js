@@ -1,12 +1,12 @@
 import React from "react"
 import logo from './logo.svg';
 import './App.css';
-import HeaderBar from "./HeaderBar";
+import Page from "./Page";
 
 function App() {
   return (
     <div className="App">
-      <HeaderBar/>
+      <Page>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -14,6 +14,7 @@ function App() {
         </p>
         Hello bees!
       </header>
+      </Page>
     </div>
   );
 }
