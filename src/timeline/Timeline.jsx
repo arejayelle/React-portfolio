@@ -8,6 +8,16 @@ export default function Timeline() {
     return (
         <MuiTimeline >
             <TimelineItem
+                date="July 2020 - May 2021"
+            >
+                <ArtCard title="Switchboard">AAA</ArtCard>
+            </TimelineItem>
+            <TimelineItem
+                date="Winter 2021"
+            >
+                <ProjectCard title="Hello">There are some bees!</ProjectCard>
+            </TimelineItem>
+            <TimelineItem
                 date="Winter 2022"
                 isLast
             >

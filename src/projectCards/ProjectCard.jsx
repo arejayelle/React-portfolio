@@ -4,6 +4,7 @@ export default function ProjectCard({title, children, colour}) {
         
     const style ={
         padding: '6px 16px',
+        color: colour
     }
     return (
         <Paper 
